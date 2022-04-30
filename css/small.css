@@ -14,13 +14,14 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Public Sans', sans-serif;
-  color: #000;
+  color: #444;
   height: 100%;
 }
 
 h1 {
   font-size: 1.5rem;
   margin: 0.15rem;
+  font-family: 'Tapestry', cursive;
 }
 
 h2 {
@@ -56,7 +57,6 @@ footer {
 
 header img {
   margin: auto;
-  margin-top: -20px;
   border: 1px solid black;
   max-width: fit-content;
   height: 100px;
@@ -70,9 +70,8 @@ footer a {
   color: #fff;
 }
 
-section p {
+p {
   margin-bottom: 7px;
-  text-align: center;
-  font-style: italic;
+  font-family: 'Tapestry', cursive;
   color: gray;
 }
