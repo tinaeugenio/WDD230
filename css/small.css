@@ -1,3 +1,15 @@
+:root {
+  --blue: rgba(51, 119, 170, 1);
+  --blue-5: rgba(51, 119, 170, 0.5);
+  --blue-8: rgba(51, 119, 170, 0.8);
+  --brown: rgba(100, 50, 25, 1);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 18px;
   line-height: 1.5;
@@ -30,12 +42,16 @@ header {
   margin-top: 10px;
 }
 
+header nav {
+  background-color: var(--blue-8);
+  color: #fff;
+}
 
 header,
 footer {
-  background-color: navy;
-  color: white;
   text-align: center;
+  background-color: var(--blue);
+  color: #fff;
 }
 
 header img {
