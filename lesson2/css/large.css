@@ -1,0 +1,35 @@
+@media only screen and (min-width: 60em) {
+
+  body {
+    text-size-adjust: auto;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr
+  }
+
+  .column {
+    flex: 33.33%;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cccccc;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .container {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    font-family: 'Tapestry', cursive;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
